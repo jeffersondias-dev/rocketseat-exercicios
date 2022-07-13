@@ -1,0 +1,27 @@
+.container-images {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-images ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.container-images a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container-images li {
+    list-style: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.container-images a:hover {
+    color: #ff5757;
+
+}
